@@ -1,6 +1,8 @@
 # Deep Research Agent
 
-This project demonstrates a fullstack application using a React frontend and a LangGraph-powered backend agent. The agent is designed to perform comprehensive research on a user's query by dynamically generating search terms, querying the web using Google Search, reflecting on the results to identify knowledge gaps, and iteratively refining its search until it can provide a well-supported answer with citations. This application serves as an example of building research-augmented conversational AI using LangGraph and Google's Gemini models.
+This is my fork of https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart. Since the original is not working because of langchain package issues. I migrated from lanchain to mirascope and from grounding_with_google to tavily because of rate limits. 
+
+I havent made much changes to the original README.md since it was fitting
 
 <img src="./app.png" title="Gemini Fullstack LangGraph" alt="Gemini Fullstack LangGraph" width="90%">
 
